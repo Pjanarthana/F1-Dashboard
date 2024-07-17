@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Gilly's Koramangala Leaderboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This challenge is a dynamic leaderboard software for Gilly's Koramangala, designed to show and manipulate scores for a gaming or opposition occasion. It functions a responsive design, real-time updates, and nearby storage capability.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+- Display leaderboard with ranks, names, prizes, and times
+- Highlight pinnacle 3 performers
+- Add new rankings through a popup interface
+- Recent access show
+- Auto-scrolling footer banner
+- Responsive design for diverse display screen sizes
+- Local storage to persist statistics throughout periods
 
-### `npm start`
+## Technologies Used
+- React.Js
+- Redux for country management
+- CSS3 for styling and animations
+- Local Storage API for facts persistence
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+1. Install the Boiler Plate:
+2. Navigate to the undertaking listing:
+three. Install dependencies:
+## Usage
+1. Start the improvement server:
+2. Open your browser and go to `http://localhost:3000`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Components
+- `LeaderboardContainer`: Main container issue
+- `LeaderboardList`: Displays the list of rankings
+- `LeaderboardItem`: Individual rating object
+- `AddScorePopup`: Popup for including new scores
+- `RecentEntry`: Displays the maximum recent access
+- `AutoScrollFooter`: Scrolling footer banner
+- `Leaderboardslice`: Update the Result
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## State Management
+- Uses Redux for centralized nation management
+- Leaderboard data is saved inside the Redux store
+- Local garage is used to persist statistics among sessions
 
-### `npm run build`
+## Styling
+- Responsive layout using CSS media queries
+- Custom animations for new entries and updates
+- Theme customization available in `App.Css`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+Contributions are welcome! Please experience free to put up a Pull Request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
+This mission is licensed beneath the MIT License - see the LICENSE.Md document for info.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+- Project 7EHO for the logo and inspiration
+- All contributors and supporters of the Gilly's Koramangala community

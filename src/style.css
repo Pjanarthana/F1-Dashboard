@@ -1,0 +1,112 @@
+/* Add your color scheme here */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .leaderboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .rank {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .trophy {
+    margin-right: 10px;
+  }
+  
+  .rank-1 { color: gold; }
+  .rank-2 { color: silver; }
+  .rank-3 { color: #cd7f32; }
+  
+  .username {
+    flex-grow: 1;
+  }
+  
+  .score {
+    font-weight: bold;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auto-scroll-footer {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: inline-block;
+    animation: scrollFooter 20s linear infinite;
+  }
+  
+  @keyframes scrollFooter {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .leaderboard-container {
+      padding: 10px;
+    }
+  
+    .leaderboard-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .rank, .trophy {
+      margin-bottom: 5px;
+    }
+  }
