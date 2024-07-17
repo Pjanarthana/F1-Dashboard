@@ -3,6 +3,10 @@
 ## Description
 This challenge is a dynamic leaderboard software for Gilly's Koramangala, designed to show and manipulate scores for a gaming or opposition occasion. It functions a responsive design, real-time updates, and nearby storage capability.
 
+#ScreenShot
+![samle](https://github.com/user-attachments/assets/288dcf2a-a787-44ac-8938-323a584919e5)
+![sass](https://github.com/user-attachments/assets/9094da8f-c066-43d4-9b4f-8da57f321d24)
+
 
 ## Features
 - Display leaderboard with ranks, names, prizes, and times
